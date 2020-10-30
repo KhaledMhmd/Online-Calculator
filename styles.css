@@ -20,9 +20,13 @@ h1 {
 button {
   background-color: #DBE7F8;
   color: black;
-  border: 1px solid white;
+  border: 1px dashed white;
   cursor: pointer;
   font-size: 2rem;
+}
+button:focus {
+  border-style: none;
+  outline: none;
 }
 
 .gridContainer {
