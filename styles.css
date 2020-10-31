@@ -46,7 +46,7 @@ button:hover {
   grid-column: span 2;
 }
 
-.outputDisplay {
+#outputDisplay {
   background-color: #020421;
   color: white;
   text-align: right;
