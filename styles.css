@@ -3,15 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #6C9DE4;
 }
 
-.mainTitle{
-  padding: 15px;
-  margin-bottom: 20px;
-}
 h1 {
+  padding: 15px;
+  margin-bottom: 40px;
+  margin-top: 20px;
   text-align: center;
   font-family: Garamond;
 
@@ -24,9 +24,14 @@ button {
   cursor: pointer;
   font-size: 2rem;
 }
+
 button:focus {
   border-style: none;
   outline: none;
+}
+
+button:hover {
+  background-color: rgba(219, 231, 248, .9);
 }
 
 .gridContainer {
@@ -36,10 +41,6 @@ button:focus {
   grid-template-columns: repeat(4, 70px);
   grid-template-rows: minmax(120px, auto) repeat(5, 70px);
   min-height: 100%;
-}
-
-button:hover {
-  background-color: rgba(219, 231, 248, .9);
 }
 
 .span2 {
@@ -54,4 +55,7 @@ button:hover {
   padding: 50px;
   word-wrap: break-word;
   word-break: break-all;
+  font-size: 1.5rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
